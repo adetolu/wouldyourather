@@ -1,0 +1,15 @@
+.column {  float: left; padding: 5px; }
+.row::after {   content: "";  clear: both;  display: table; }
+
+.pollsdetails {
+    overflow: hidden;  
+    margin: 20px auto;  
+    padding: 50px;  
+    background: #f9f9f9;  
+    border-radius: 15px ; 
+    height:380px; 
+}
+
+/* .author-name {
+    border: solid 1px #d3d3d3;
+} */
